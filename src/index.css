@@ -25,6 +25,7 @@ body {
   z-index: 10;
 }
 
+
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),
@@ -36,7 +37,6 @@ body {
 }
 
 .link-underline-black {
-  /* background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, rgb(60, 34, 255)) */
   background-image: linear-gradient(transparent, transparent),
     linear-gradient(#000, #fff);
 }
@@ -56,17 +56,18 @@ body {
   margin-top: 12%;
 }
 
-
 .nav-links {
   text-underline-offset: 1rem;
 }
 
-
 @media screen and (max-width: 900px) {
-
   #root {
     background: linear-gradient(rgb(31, 41, 55) 20%, black 20%, rgb(31, 41, 55) 65%, black 25%);
     min-height: 100vh;
+  }
+
+  .sociallinks {
+    opacity: 0.2;  
   }
 
   .about,
@@ -114,5 +115,4 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
 }
