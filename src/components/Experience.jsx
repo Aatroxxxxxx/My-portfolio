@@ -10,6 +10,10 @@ import laravel from "../assets/laravel.png";
 import mysql from "../assets/mysql.png";
 import wordpress from "../assets/wordpress.png";
 import git from "../assets/git.png";
+import pyhton from  "../assets/python.png"
+import express from  "../assets/express.png"
+import mongodb from  "../assets/mongodb.png"
+import tailwind from  "../assets/tailwind.png"
 const Experience = () => {
   const techs = [
     {
@@ -71,6 +75,30 @@ const Experience = () => {
       src: mysql,
       title: "MySQL",
       style: "shadow-orange-500",
+    },
+    {
+      id:  11,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
+      id:  12,
+      src: pyhton,
+      title: "Python",
+      style: "shadow-yellow-500",
+    },
+    {
+      id:  13,
+      src: express,
+      title: "Express",
+      style: "shadow-white",
+    },
+    {
+      id:  14,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-teal-500",
     },
   ];
 
